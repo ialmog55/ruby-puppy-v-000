@@ -8,6 +8,9 @@ class Dog
   def self.all
     @@all
   end
+  def name
+    @name=name
+  end
   def self.clear_all
     @@all =[]
   end
