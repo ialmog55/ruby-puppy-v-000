@@ -4,10 +4,10 @@ attr_accessor :name
 
 def initialize(name)
   @name=name
-  def self.save
+  def save
     @@all << self
   end
-  self.save
+  save
 end
 def self.all
   @@all
